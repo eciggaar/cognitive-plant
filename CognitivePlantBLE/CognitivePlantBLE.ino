@@ -11,9 +11,9 @@
 /***************************************************************************
    Internet Connectivity Setup - Variables & Functions
  **************************************************************************/
-char ssid[] = "IICAMS";       // your network SSID (name)
-char pass[] = "iicadm1n";     // your network password
-int status = WL_IDLE_STATUS;  // the Wifi radio's status
+char ssid[] = "<your-network>"; // your network SSID (name)
+char pass[] = "<your-passwd>";  // your network password
+int status = WL_IDLE_STATUS;    // the Wifi radio's status
 
 // Initialize the WiFi client library
 WiFiClient wifiClient;
